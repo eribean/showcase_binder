@@ -1,0 +1,15 @@
+name: eribean-examples
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - bokeh
+  - jupyterlab=3.2.8
+  - jupyter_bokeh
+  - numpy=1.20.1
+  - scipy=1.7.1
+  - pip
+  - pip:
+    - girth==0.8.0
+    - RyStats==0.5.0
